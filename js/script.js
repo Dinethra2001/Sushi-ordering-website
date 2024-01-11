@@ -5,8 +5,11 @@ import sushi12 from '../assets/sushi-12.png'
 import sushi11 from '../assets/sushi-11.png'
 import sushi10 from '../assets/sushi-10.png'
 
-//import AOS from "aos";
-//import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+const script = document.createElement('script');
+script.src = 'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js';
+document.head.appendChild(script);
 
 // init AOS animation
 AOS.init({
